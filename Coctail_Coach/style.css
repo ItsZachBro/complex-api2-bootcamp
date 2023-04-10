@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+  }
+  body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+}
+
+.search-container {
+    display: flex;
+}
+
+#search-input {
+    padding: 5px;
+    width: 200px;
+}
+
+#search-button {
+    padding: 5px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+}
+
+main {
+    display: flex;
+}
+
+#map {
+    width: 70%;
+    height: 600px;
+}
+
+#drink-list {
+    width: 30%;
+    padding: 20px;
+}
